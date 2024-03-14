@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js" defer></script>
+    <title>calculator</title>
+</head>
+
+<body>
+    <div id="calc">
+        <div id="screen"></div>
+        <div id="caclBtns">
+            <button class="cacl1" onclick="getInput('1')">1</button>
+            <button class="cacl2" onclick="getInput('2')">2</button>
+            <button class="cacl3" onclick="getInput('3')">3</button>
+            <button class="cacl4" onclick="getInput('4')">4</button>
+            <button class="cacl5" onclick="getInput('5')">5</button>
+            <button class="cacl6" onclick="getInput('6')">6</button>
+            <button class="cacl7" onclick="getInput('7')">7</button>
+            <button class="cacl8" onclick="getInput('8')">8</button>
+            <button class="cacl9" onclick="getInput('9')">9</button>
+            <button class="cacl0" onclick="getInput('0')">0</button>
+            <button class="caclMul" onclick="getInput('*')">*</button>
+            <button class="caclDivi" onclick="getInput('/')">/</button>
+            <button class="caclMin" onclick="getInput('-')">-</button>
+            <button class="caclPlus" onclick="getInput('+')">+</button>
+            <button class="caclDot" onclick="getInput('.')">.</button>
+            <button class="caclAC" onclick="clearBtn()">AC</button>
+            <button class="calcCE" onclick="">CE</button>
+            <button class="caclEq" onclick="screenResult()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
